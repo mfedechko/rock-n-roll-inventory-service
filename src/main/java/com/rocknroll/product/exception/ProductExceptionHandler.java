@@ -50,4 +50,7 @@ public class ProductExceptionHandler {
         return ResponseEntity.badRequest().body(apiError);
     }
 
+    //TODO handle json serilisation error
+
+
 }
